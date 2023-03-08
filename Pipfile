@@ -7,6 +7,7 @@ name = "pypi"
 black = "*"
 flake8 = "*"
 django-environ = "*"
+aiogram = "==2.25.1"
 
 [dev-packages]
 
