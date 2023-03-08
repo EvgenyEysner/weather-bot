@@ -7,7 +7,7 @@ def weather() -> str:
     wthr = get_weather(get_coordinates())
     return (
         f"{wthr.location}, {wthr.description}\n"
-        f"Temperature is {wthr.temperature}°C, feels like {wthr.temperature_feeling}°C"
+        f"Temperature is {round(wthr.temperature, 0)}°C, feels like {round(wthr.temperature_feeling, 0)}°C"
     )
 
 
