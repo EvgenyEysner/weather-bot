@@ -1,4 +1,4 @@
-### Desription
+### Description
     Python 3.8
 A simple Telegram Weather Bot.
 ### Virtual environment
